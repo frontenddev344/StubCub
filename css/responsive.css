@@ -1,0 +1,203 @@
+@media screen and (max-width:1399px) {
+    .text_wrapper {
+        height: 350px !important;
+    }
+
+    .popup-content input {
+
+        width: 100%;
+
+    }
+
+    .popup-content button {
+        width: 100%;
+
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .social_profile ul li a {
+        font-size: 18px;
+        width: 45px;
+        height: 45px;
+        line-height: 47px;
+    }
+
+    .copyright {
+        margin-top: 20px;
+        padding-top: 10px;
+    }
+}
+
+@media (max-width: 991px) {
+    footer li a {
+        font-size: 15px;
+    }
+
+    .banner-text h1 {
+        font-size: 35px;
+
+    }
+
+    .single_footer {
+        margin-bottom: 50px;
+    }
+
+    .single_footer h4 {
+        margin-bottom: 20px;
+    }
+
+    .single_footer p {
+        margin-top: 0;
+    }
+
+    .contact_section {
+        padding: 40px 0;
+
+    }
+
+    .row.email {
+        gap: 20px;
+    }
+
+    .casino_text {
+        width: 60%;
+    }
+
+    .casino_img {
+        width: 40%;
+    }
+
+    .rest_one {
+        height: 580px;
+    }
+
+    .rest_two {
+        height: 100%;
+    }
+}
+
+
+@media (max-width: 767px) {
+    section.home_banner {
+        height: 400px;
+
+    }
+
+    .rest_two.vika {
+        height: 100%;
+    }
+
+    .rest_section {
+        padding: 40px 0;
+    }
+
+    .enter_banner,
+    .restaurant,
+    .car,
+    .health,
+    .Laundry,
+    .casino_banner,
+    .tour_banner {
+        height: 400px;
+
+    }
+
+    .entertain {
+        padding: 40px 0;
+    }
+
+    .casino_text {
+        width: 100%;
+    }
+
+    .casino_img {
+        width: 100%;
+    }
+
+    .casino_together {
+        display: block;
+
+    }
+
+    .casino_img img {
+        height: 300px;
+        margin-bottom: 10px;
+    }
+
+    .detail {
+        padding: 40px 0;
+    }
+
+    .footer_inner ul {
+        display: inline-block;
+    }
+
+    .footer_logo img {
+
+        margin-bottom: 30px;
+    }
+
+    a.button_main {
+        padding: 10px 20px 10px 20px;
+    }
+
+    .casino {
+        padding: 40px 0;
+
+    }
+
+
+    .banner_box h1 {
+        font-size: 32px;
+    }
+
+    .banner__text h1 {
+        font-size: 32px;
+        padding: 30px 10px;
+    }
+
+
+    .form-control {
+        width: 100%;
+
+    }
+
+    .single_footer h4 {
+        margin-bottom: 10px;
+    }
+
+    .single_footer {
+        margin-bottom: 20px;
+    }
+
+    .rest_two {
+        height: 100%;
+    }
+
+    .rest_one {
+        height: 380px;
+        border-radius: unset !important;
+    }
+}
+
+@media (max-width: 575px) {
+
+    .popup {
+        width: 80%;
+    }
+
+    body.toggle .navlink {
+        width: 100%;
+
+    }
+
+    .navbar .navlink {
+        margin-left: 0px;
+    }
+
+    .box img {
+        width: 90px;
+    }
+
+}
