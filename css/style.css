@@ -481,21 +481,31 @@ input.form-control.input-lg {
     border: 1px solid var(--secondary-color);
 }
 
-.how {
-    padding: 20px;
-    text-align: center;
-    background: #fff;
-}
-.how h2 {
-    padding: 10px;
-}
+
 /* email styling start */
 /* work section start */
 .work {
     padding: 60px 0;
     background: #f3f3f3;
 }
-
+.how img {
+    width: 100%;
+    max-width: 64px;
+}
+.how p {
+    width: 100%;
+    max-width: 430px;
+    margin: auto;
+}
+.how {
+    padding: 20px;
+    text-align: center;
+    background: #fff;
+    margin-bottom: 20px;
+}
+.how h2 {
+    padding: 10px;
+}
 /* work section end */
 /* privacy styling start */
 .privacy__section {
