@@ -717,12 +717,12 @@ section.terms_conditons h3 {
 }
 
 /*END FOOTER SOCIAL DESIGN*/
-.single_footer h4 img {
+.one_footer h4 img {
     max-width: 150px;
 }
 
 
-.single_footer h4 {
+.one_footer h4 {
     color: #fff;
     margin-top: 0;
     margin: 20px 0;
@@ -731,7 +731,7 @@ section.terms_conditons h3 {
     font-size: 20px;
 }
 
-/* .single_footer h4::after {
+/* .one_footer h4::after {
     content: "";
     display: block;
     height: 2px;
@@ -739,12 +739,12 @@ section.terms_conditons h3 {
     background: #fff;
     margin-top: 20px;
 } */
-.single_footer.single_footer_menu ul {
+.one_footer.one_footer_menu ul {
     display: flex;
     gap: 20px;
 }
 
-.single_footer.single_footer_menu {
+.one_footer.one_footer_menu {
     display: flex;
     align-items: center;
     justify-content: start;
@@ -752,7 +752,7 @@ section.terms_conditons h3 {
     gap: 20px;
 }
 
-.single_footer.single_footer_address {
+.one_footer.one_footer_address {
     display: flex;
     align-items: center;
     justify-content: end;
@@ -760,20 +760,20 @@ section.terms_conditons h3 {
     gap: 20px;
 }
 
-.single_footer p {
+.one_footer p {
     color: var(--secondary-color);
     text-transform: uppercase;
     margin-top: 21px;
 }
 
-.single_footer ul {
+.one_footer ul {
     display: flex;
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.single_footer ul li {
+.one_footer ul li {
     font-weight: 400;
     color: #fff;
     line-height: 28px;
@@ -781,7 +781,7 @@ section.terms_conditons h3 {
     padding-right: 20px;
 }
 
-.single_footer ul li a {
+.one_footer ul li a {
     color: #fff;
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
@@ -797,16 +797,16 @@ section.terms_conditons h3 {
     gap: 5px;
 }
 
-.single_footer ul li a:hover {
+.one_footer ul li a:hover {
     color: var(--secondary-color);
 }
 
-.single_footer_address ul li {
+.one_footer_address ul li {
     color: #fff;
     font-size: 15px;
 }
 
-.single_footer_address ul li span {
+.one_footer_address ul li span {
     font-weight: 400;
     color: #fff;
     line-height: 28px;
