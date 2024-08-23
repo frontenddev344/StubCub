@@ -864,13 +864,13 @@ section.terms_conditons h3 {
 .bottom_links {
     display: flex;
     justify-content: space-between;
-    border-top: 1px solid var(--primary-color);
+    border-top: 1px solid var(--main-color);
     padding-top: 30px;
     margin-top: 30px;
 }
 
 p.copyright {
-    color: var(--primary-color);
+    color: var(--main-color);
 }
 
 .copyright a {
@@ -879,7 +879,7 @@ p.copyright {
 }
 
 .copyright a:hover {
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
 
 .last ul {
@@ -893,6 +893,9 @@ p.copyright {
     flex-direction: row;
     gap: 20px;
     justify-content: center;
+}
+.last ul li a {
+    color: var(--main-color);
 }
 /* footer styling end */
 
