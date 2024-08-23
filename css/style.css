@@ -861,7 +861,7 @@ section.terms_conditons h3 {
 }
 
 /*END SOCIAL PROFILE CSS*/
-.bottom_links {
+.secure_links {
     display: flex;
     justify-content: space-between;
     border-top: 1px solid var(--main-color);
