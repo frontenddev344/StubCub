@@ -868,6 +868,11 @@ section.terms_conditons h3 {
     padding-top: 30px;
     margin-top: 30px;
 }
+
+p.copyright {
+    color: var(--primary-color);
+}
+
 .copyright a {
     color: #fff;
     transition: all 0.2s ease 0s;
@@ -877,6 +882,18 @@ section.terms_conditons h3 {
     color: var(--primary-color);
 }
 
+.last ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
+.last ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    justify-content: center;
+}
 /* footer styling end */
 
 
