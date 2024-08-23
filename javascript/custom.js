@@ -8,7 +8,6 @@ $(document).ready(function () {
         $("body").removeClass("toggle");
     });
 });
-
 // $(document).ready(function () {
 //     $(window).scroll(function () {
 //         var header = $("header");
