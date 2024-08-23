@@ -488,24 +488,29 @@ input.form-control.input-lg {
     padding: 60px 0;
     background: #f3f3f3;
 }
+
 .how img {
     width: 100%;
     max-width: 64px;
 }
+
 .how p {
     width: 100%;
     max-width: 430px;
     margin: auto;
 }
+
 .how {
     padding: 20px;
     text-align: center;
     background: #fff;
     margin-bottom: 20px;
 }
+
 .how h2 {
     padding: 10px;
 }
+
 /* work section end */
 /* privacy styling start */
 .privacy__section {
@@ -553,6 +558,74 @@ section.privacy-policy h3 {
 }
 
 /* privacy styling end */
+/* accordian styling start */
+.stub {
+    padding: 80px 0;
+    background: #ededed;
+}
+
+.btn-toolbar {
+    gap: 10px;
+    margin-top: 30px;
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: transparent;
+    border-color: #e4e5e7;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.panel-default>.panel-heading a {
+    display: block;
+    padding: 10px 15px;
+    background: var(--primary-color);
+    color: #fff;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.panel-body {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.panel-default>.panel-heading a:after {
+    content: "";
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    float: right;
+    transition: transform .25s linear;
+    -webkit-transition: -webkit-transform .25s linear;
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"] {
+    background-color: var(--primary-color);
+}
+
+.panel-default>.panel-heading a[aria-expanded="true"]:after {
+    content: "\2212";
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.panel-default>.panel-heading a[aria-expanded="false"]:after {
+    content: "\002b";
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+/* accordian styling end */
 /* terms styling start */
 .terms__section {
     position: relative;
