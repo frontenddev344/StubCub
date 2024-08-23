@@ -305,7 +305,7 @@ section.home_banner::before {
     filter: drop-shadow(2px 4px 6px black);
 }
 
-.activity .col-3 {
+.activity .col-lg-3.col-sm-6.col-12 {
     padding: 0;
 }
 
