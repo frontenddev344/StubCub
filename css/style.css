@@ -485,7 +485,9 @@ input.form-control.input-lg {
 /* work section start */
 .work {
     padding: 60px 0;
-    background: #f3f3f3;
+    background: url(../img/workbg.png);
+    background-position: center;
+    background-size: cover;
 }
 
 .how img {
@@ -560,7 +562,6 @@ section.privacy-policy h3 {
 /* accordian styling start */
 .stub {
     padding: 80px 0;
-    background: #ededed;
 }
 
 .btn-toolbar {
