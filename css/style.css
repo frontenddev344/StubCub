@@ -404,9 +404,8 @@ section.home_banner::before {
 
 .event_box {
     padding: 10px;
-    background: #fafafa;
+    background: #f3f3f3;
     text-align: center;
-    border: 2px solid #b5838c;
 }
 
 /* feature styling start */
