@@ -445,6 +445,10 @@ input.form-control.input-lg {
     background-size: cover;
 }
 
+.work .row {
+    row-gap: 20px;
+}
+
 .how img {
     width: 100%;
     max-width: 64px;
@@ -461,6 +465,7 @@ input.form-control.input-lg {
     text-align: center;
     background: #fff;
     margin-bottom: 20px;
+    height: 100%;
 }
 
 .how h2 {
@@ -835,15 +840,18 @@ p.copyright {
 .copyright a:hover {
     color: var(--secondary-color);
 }
+
 .last ul {
     display: flex;
     flex-direction: row;
     gap: 20px;
     justify-content: end;
 }
+
 .last ul li a {
     color: var(--main-color);
 }
+
 /* footer styling end */
 
 
