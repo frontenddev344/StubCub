@@ -504,6 +504,7 @@ input.form-control.input-lg {
 .premier_inner h2 {
     font-size: 28px;
     padding: 0;
+    color: #000;
 }
 
 .premier_inner p {
@@ -512,6 +513,11 @@ input.form-control.input-lg {
 
 .premier_inner span {
     font-size: 16px;
+}
+
+.lead:hover .premier_inner {
+    bottom: 50%;
+    transform: translateY(50%);
 }
 
 /* comedy styling end */
