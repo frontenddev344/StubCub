@@ -475,7 +475,7 @@ input.form-control.input-lg {
 /* work section end */
 /* comedy styling start */
 .premier_box img {
-    height: 100%;
+    height: 400px;
     width: 100%;
     object-fit: cover;
     transition: all 0.3s ease;
