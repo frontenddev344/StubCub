@@ -268,12 +268,7 @@
     .cub .row {
         margin-bottom: 40px;
     }
-    /* .cub .container .row:nth-child(3) {
-        flex-direction: row-reverse;
-    }
-    .cub .container .row:nth-child(4) {
-        flex-direction: row-reverse;
-    } */
+
 }
 
 @media (max-width: 575px) {
