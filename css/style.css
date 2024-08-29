@@ -73,7 +73,7 @@ h2 {
     text-align: center;
     color: var(--primary-color);
     font-size: 35px;
-    padding-bottom: 50px;
+    padding: 40px;
     text-transform: uppercase;
 }
 
@@ -210,11 +210,26 @@ a.button_main {
 /* ///// */
 section.home_banner {
     background: url(../img/home_bg.webp);
-    background-size: cover;
-    background-position: center;
+    background-size: cover!important;
+    background-position: center!important;
     padding: 140px 0;
     height: 600px;
     position: relative;
+}
+section.home_banner.comedy_banner {
+    background: url(../img/comedy_bg.jpg);
+}
+section.home_banner.music_banner {
+    background: url(../img/music_bg.webp);
+}
+section.home_banner.theater_banner {
+    background: url(../img/theater_bg.webp);
+}
+section.home_banner.sports_banner {
+    background: url(../img/sports_bg.jpg);
+}
+section.home_banner.guide_banner {
+    background: url(../img/guide_bg.webp);
 }
 
 section.home_banner::before {
