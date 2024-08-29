@@ -979,6 +979,10 @@ a.btn.btn-primary.setting-cookies:hover {
     justify-content: center;
     color: #fff;
     font-weight: 500;
+    transition: all 0.4s;
+}
+.buy_ticket a:hover {
+    background: #000;
 }
 .premier_inner .common_btn_a {
     font-size: 16px;
@@ -986,8 +990,11 @@ a.btn.btn-primary.setting-cookies:hover {
     text-decoration: underline;
     font-weight: 500;
     margin-left: 10px;
+    transition: all 0.4s;
 }
-
+.premier_inner .common_btn_a:hover{
+    color:#b5838c ;
+}
 
 #cookie-popup {
     position: fixed;
