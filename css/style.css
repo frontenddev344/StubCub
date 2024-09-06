@@ -861,6 +861,9 @@ section.terms_conditons h3 {
 .one_footer ul li a:hover {
     color: var(--secondary-color);
 }
+ .last ul li a:hover {
+    color: var(--secondary-color);
+}
 
 .one_footer_address ul li {
     color: #fff;
