@@ -319,13 +319,8 @@ section.home_banner::before {
     color: #fff;
     transform: translate(-50%, -15%);
 }
-.comedy h2:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
 
 .comedy a {
-    position: absolute;
     height: 100%;
     left: 50%;
     color: #fff;
