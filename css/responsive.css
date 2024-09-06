@@ -293,13 +293,19 @@
     .panel-default>.panel-heading a {
         font-size: 17px;
     }
-
+    .premier_inner p {
+        font-weight: 500;
+    }
+    .input-group {
+          width: 80%;
+        justify-content: center;
+        margin: 0 auto;
+    }
 }
 
 @media (max-width: 575px) {
     section.home_banner {
         height: 300px;
-
     }
 
     .popup {
@@ -346,6 +352,18 @@
     .one_footer.one_footer_address {
         flex-direction: column;
         margin-top: 15px;
+    }
+    .panel-default>.panel-heading a {
+        font-size: 16px;
+    }
+    input.form-control.input-lg {
+        width: 100%;
+        padding: 5px;
+    }
+    button.btn.btn-success.btn-lg {
+        padding: 5px 20px;
+        font-size: 14px;
+        margin-top: 10px;
     }
 
 }

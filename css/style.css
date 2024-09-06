@@ -449,6 +449,7 @@ section.home_banner::before {
     text-transform: capitalize;
 }
 
+
 input.form-control.input-lg {
     background: #fafafa;
     border-radius: unset;
