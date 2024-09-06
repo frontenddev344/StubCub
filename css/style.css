@@ -359,6 +359,13 @@ section.home_banner::before {
 .feautre {
     padding: 15px 0;
 }
+.cub_inner p {
+    font-size: 20px;
+}
+.c-crd{
+     box-shadow: #b5838c 0px 2px 8px 0px; 
+    margin-bottom: 30px;
+}
 
 .event_box h2 {
     font-size: 28px;
