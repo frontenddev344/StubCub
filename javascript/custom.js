@@ -8,6 +8,20 @@ $(document).ready(function () {
         $("body").removeClass("toggle");
     });
 });
+
+
+
+  // Header scroll js Start
+  $(document).ready(function(){
+    $(window).scroll(function(){
+      var header = $("header");
+      header.toggleClass("fixed-header", $(window).scrollTop() > 0 );
+    });
+  });
+  
+  // Header scroll js End
+
+  
 // $(document).ready(function () {
 //     $(window).scroll(function () {
 //         var header = $("header");

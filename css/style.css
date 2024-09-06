@@ -133,7 +133,7 @@ h2 {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     background: #2222228f;
     font-size: 18px;
     padding: 14px 0;
@@ -144,6 +144,9 @@ header {
     z-index: 99;
     transition: all 0.5s linear;
     top: 0;
+}
+header.fixed-header{
+background-color: #000;
 }
 
 .navlink ul li:hover ul.subnav {
@@ -315,6 +318,10 @@ section.home_banner::before {
     left: 50%;
     color: #fff;
     transform: translate(-50%, -15%);
+}
+.comedy h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .comedy a {
