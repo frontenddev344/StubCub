@@ -133,20 +133,17 @@ h2 {
 }
 
 header {
-    position: fixed;
-    background: #2222228f;
+    position: sticky;
+    background: #000;
     font-size: 18px;
     padding: 14px 0;
     font-weight: 700;
     text-transform: capitalize;
-    color: #000000;
+    color: #fff;
     width: 100%;
     z-index: 99;
     transition: all 0.5s linear;
     top: 0;
-}
-header.fixed-header{
-background-color: #000;
 }
 
 .navlink ul li:hover ul.subnav {
@@ -371,13 +368,13 @@ section.home_banner::before {
     margin-bottom: 30px;
 }
 
-.c-crd2{
+/* .c-crd2{
     overflow: hidden;
 }
 
 .c-crd2:hover  .event_box a img{
     transform: scale(1.2);
-}
+} */
 
 .event_box h2 {
     font-size: 28px;
