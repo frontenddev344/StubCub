@@ -307,6 +307,18 @@
         justify-content: center;
         margin: 0 auto;
     }
+    .email {
+        padding: 0;
+    }   
+    .stub {
+        padding: 20px 0;
+    }
+    p.copyright {
+        margin-top: 25px;
+    }
+    .last ul {
+        margin-top: 25px;
+    }
 }
 
 @media (max-width: 575px) {
@@ -371,15 +383,15 @@
         font-size: 14px;
         margin-top: 10px;
     }
-
+    .email {
+        padding: 0px 0 10px;
+    }
 }
 
 @media (max-width:400px) 
 {
   
-    .email {
-        padding: 5px 0;
-    }
+ 
     .social_profile {
         margin-bottom: 30px;
     }

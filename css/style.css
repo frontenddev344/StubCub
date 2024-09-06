@@ -440,7 +440,7 @@ section.home_banner::before {
 }
 
 .email {
-    padding: 30px 0;
+    padding: 30px 0 60px 0;
 }
 
 .form-subscribe .btn {
@@ -604,7 +604,7 @@ section.privacy-policy h3 {
 /* privacy styling end */
 /* accordian styling start */
 .stub {
-    padding: 20px 0 50px 0;
+    padding: 50px 0;
 }
 
 .btn-toolbar {
