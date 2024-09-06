@@ -103,7 +103,7 @@
 
     .banner-text h1 {
         font-size: 35px;
-
+        margin-top: 60px;
     }
 
     .single_footer {
@@ -266,12 +266,17 @@
         max-width: 100%;
     }
     .cub .row {
-        margin-bottom: 40px;
+        margin-bottom: 0px;
     }
 
 }
 
 @media (max-width: 575px) {
+    section.home_banner {
+        height: 300px;
+
+    }
+
     .popup {
         width: 80%;
     }

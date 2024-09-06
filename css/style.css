@@ -232,6 +232,15 @@ section.home_banner.sports_banner {
 section.home_banner.guide_banner {
     background: url(../img/guide_bg.webp);
 }
+section.home_banner.guide_banner {
+    background: url(../img/guide_bg.webp);
+}
+section.home_banner.privacy_banner {
+    background: url(../img/privacy-banner-image.jpg);
+}
+section.home_banner.terms_banner {
+    background: url(../img/terms-banner-image.jpg);
+}
 
 section.home_banner::before {
     position: absolute;
@@ -346,7 +355,7 @@ section.home_banner::before {
 /* activity styling end */
 /* feature styling start */
 .feautre {
-    padding: 60px 0;
+    padding: 15px 0;
 }
 
 .event_box h2 {
@@ -391,11 +400,6 @@ section.home_banner::before {
 }
 
 .cub {
-    padding: 60px 0;
-}
-
-.cub {
-    padding: 60px 0;
     background: #fafafa;
 }
 
@@ -585,6 +589,7 @@ input.form-control.input-lg {
 
 section.privacy-policy h3 {
     margin-top: 10px;
+    font-size: 20px;
 }
 
 /* privacy styling end */
