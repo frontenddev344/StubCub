@@ -254,7 +254,7 @@
         justify-content: center;
     }
     .one_footer.one_footer_address {
-        justify-content: center;
+        justify-content: space-around;
         margin: 15px 0;
     }
     .email {
@@ -354,7 +354,7 @@
 {
   
     .email {
-        padding: 22px 0;
+        padding: 5px 0;
     }
     .social_profile {
         margin-bottom: 30px;
