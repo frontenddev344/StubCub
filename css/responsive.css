@@ -319,6 +319,9 @@
     .last ul {
         margin-top: 25px;
     }
+    .cub_inner p {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 575px) {
