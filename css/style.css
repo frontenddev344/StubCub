@@ -366,6 +366,9 @@ section.home_banner::before {
      box-shadow: #b5838c 0px 2px 8px 0px; 
     margin-bottom: 30px;
 }
+.event_box:hover .event_box a img{
+    transform: scale(1.1);
+}
 
 .event_box h2 {
     font-size: 28px;
