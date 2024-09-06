@@ -217,7 +217,7 @@ section.home_banner {
     background-size: cover!important;
     background-position: center!important;
     padding: 140px 0;
-    height: 600px;
+    height: 500px;
     position: relative;
 }
 section.home_banner.comedy_banner {
@@ -244,6 +244,10 @@ section.home_banner.privacy_banner {
 section.home_banner.terms_banner {
     background: url(../img/terms-banner-image.jpg);
 }
+.terms_banner,.privacy_banner,.privacy_banner,.comedy_banner,.music_banner,.sports_banner,.guide_banner{
+    height:420px;
+}
+
 
 section.home_banner::before {
     position: absolute;
@@ -366,10 +370,8 @@ section.home_banner::before {
      box-shadow: #b5838c 0px 2px 8px 0px; 
     margin-bottom: 30px;
 }
-.event_box:hover {
-    transform: scale(1.1);
-}
-.event_box{
+
+.c-crd2{
     overflow: hidden;
 }
 
