@@ -519,6 +519,9 @@ input.form-control.input-lg {
 .work .row {
     row-gap: 20px;
 }
+.work .container h2 {
+    color: #212529;
+}
 
 .how img {
     width: 100%;
